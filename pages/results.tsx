@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Main from './components/layouts/main'
+import Main from '../components/layouts/main'
 
 interface Props {
   title: string
