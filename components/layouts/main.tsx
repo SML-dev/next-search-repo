@@ -8,10 +8,10 @@ interface Props {
 
 export default function Main({ children }: Props) {
   return (
-    <>
+    <div className="container mx-auto">
       <Header />
-      <main>{children}</main>
+      <main className="my-24 w-2/6 mx-auto">{children}</main>
       <Footer />
-    </>
+    </div>
   )
 }
