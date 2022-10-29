@@ -1,6 +1,8 @@
+import { ChangeEventHandler, MouseEventHandler } from 'react'
+
 interface Props {
-  changeInput: () => void
-  onClick: () => void
+  changeInput: ChangeEventHandler<HTMLInputElement>
+  onClick: MouseEventHandler<HTMLButtonElement>
 }
 
 const SearchBar = ({ changeInput, onClick }: Props) => {
