@@ -8,9 +8,9 @@ interface Props {
 
 export default function Main({ children }: Props) {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto min-h-screen">
       <Header />
-      <main className="my-24 w-2/6 mx-auto">{children}</main>
+      <main className={` h-max flex mx-auto  `}>{children}</main>
       <Footer />
     </div>
   )
